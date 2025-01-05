@@ -1,0 +1,76 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+
+.delA{
+    padding: 10px;
+    margin: 20px;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+   
+}
+
+
+.delA01{
+    padding: 5px;
+    margin: 5px;
+    height: 480px;
+    width: 800px;
+    
+    background-color: yellow;
+}
+
+.delA02{
+    padding: 5px;
+    margin: 5px;
+    height: 480px;
+    width: 800px;
+   
+ 
+}
+
+.delA02 img{
+   
+    height: 500px;
+    width: 500px;
+    margin-left: 400px;
+}
+
+.delA01 h1{
+    font-size: 45px;
+    font-family: "Rubik Vinyl", serif;      
+}
+
+.scalebility{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 50%;
+    padding: 2px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
+
+
+#nr{
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+.btn_sendTallet{
+cursor: pointer;
+}
+
+.btn_sendTallet:hover{
+    background-color: aqua;
+    font-size: x-large;
+}
