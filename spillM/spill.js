@@ -31,12 +31,14 @@ if(inntastetverdi === tilfeldignummer){
     siste_resultat.textContent = 'VELDIG BRA DU VANT '
     siste_resultat.style.backgroundColor = 'yellowgreen';
     LavEllerHøyt.textContent = '';
+    resett()
 
 }else if(antallforsøk === 10){
   siste_resultat.textContent = 'Du har brukte opp alle forsøk = GAME OVER'
   siste_resultat.style.backgroundColor = 'red';
   siste_resultat.style.color = 'white'
   LavEllerHøyt.textContent = '';
+  resett()
 }else{
     siste_resultat.textContent = 'Du tastet feil !!!'
 }if(inntastetverdi < tilfeldignummer){
@@ -58,6 +60,23 @@ inntastingFelt.focus();
 
 btn_for_å_sende.addEventListener('click',operationell);
 
+
+function resett(){
+
+
+inntastingFelt.disabled = true;
+btn_for_å_sende.disabled = true;
+inntastingFelt.value = '';
+inntastingFelt.focus();
+resettbtn = document.createElement('button');
+resettbtn.textContent = 'Start spillet på nytt';
+document.body.append(resettbtn);
+resettbtn.addEventListener('click',)
+
+
+
+
+}
 
 
 
